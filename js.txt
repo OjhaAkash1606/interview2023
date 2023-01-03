@@ -1,0 +1,49 @@
+What is hoisting?
+Execution context in javascript.
+
+    Everything in javascript happens inside an Execution context.
+    When we run javascript whole code, A global execution context is created.  
+    The execution context is created in two phases.
+        1)First one is Memory Creation (creation phase) phase.
+            In first phase of Memory creation, javascript will allocate memory to all the 
+            variable and functions.
+
+        2)second one is code execution phase.
+
+
+        Note : when we invoked function in js on that time new execution context is created 
+               that execution context also have two phases in which first one is memory allocation
+               phase and second one is code execution phase. 
+
+        In javascript, return keyword tells the function, just return the control back to the execution context, where
+        the function was invoked.
+
+        In javascript, return keyword states that, now return the control of the program, to the place where the 
+        function was invoked.
+
+        when whole the function is executed,then whole execution context for that instance of the function will be deleted. 
+
+        Once the javascript done with all it's work, now the program is finished. the whole global execution context
+        also deleted. 
+
+What is window?
+    Window is a global object which is created along with the global execution context.
+    at the global level this keyword takes window object.
+
+
+
+Difference between undefined and not defined in js?
+    "undefined" indicates that a variable has been declared but not given a value.
+    "not defined" indicates that a variable does not exist.
+
+What is scope in js? 
+    Where you can access a specific variable or function in our code.
+
+What is a lexical environment? 
+    Whenever an execution context is created, a lexical environment is also created. 
+    lexical environment is the local memory along with the lexical environment of it's parent.
+    lexical means in order or in hierarchy.
+
+What is a Temporal dead zone?
+let and const declaration are hoisted?
+Difference between TypeError ,SyntaxError and ReferenceError

@@ -1,0 +1,33 @@
+1) Array.at() : The at() method takes an integer value and returns the item at that index.
+                For negative value negativeValue + Array.length. 
+                
+                Calling at() on non-array objects
+                The at() method reads the length property of this and calculates the index
+                to access.
+
+                Return Undefined
+
+2)Array.concat() : The concat() method is used to merge two or more arrays. This method does 
+                   not change the existing arrays, but instead returns a new array.
+
+                Return New Array
+
+3)Array.copyWithin() : The copyWithin() method shallow copies part of an array to another location
+                     in the same array and returns it without modifying its length.
+
+4)Array.entries() : The entries() method returns a new Array Iterator object that contains the key/value pairs
+                  for each index in the array.         
+
+5)Array.every() : The every() method tests whether all elements in the array pass the test implemented by the 
+                  provided function.It returns a Boolean value.                
+
+6)
+
+
+
+Array.filter() : The filter() method creates a new array, that array considered value which have filtered down to
+just the elements from the given array that pass the test implemented by the provided function.
+
+Array.reduce() : This method returns single value which can be array , object or any data type value.
+
+Array.map() : This method return new modifying array with the same length.
