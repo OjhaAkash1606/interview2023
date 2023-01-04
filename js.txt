@@ -44,6 +44,32 @@ What is a lexical environment?
     lexical environment is the local memory along with the lexical environment of it's parent.
     lexical means in order or in hierarchy.
 
+What is Scope chain?
+
 What is a Temporal dead zone?
-let and const declaration are hoisted?
+    Temporal dead zone is the time since when this let variable was hoisted and till it is initialize 
+    some value that time between that is known as temporal dead zone.
+
+let and const declaration are hoisted in js?
+    It is hoisted but it get different space instead of global space. that's why it can not access before initialization. 
+
+difference between let var and const?
+    -var : var variable takes global space at the time of memory allocation and let and const takes another space to which is called script space.  
+    -Var can redeclare and re-initialize but let is not redeclare but re-initialize and const is not redeclare and re-initialize.
+    -var can access before initialization due to global space and let and const not access before initialization due to other memory space. 
+
+What is block(compound statements) in js?
+    Combining multiple javascript's statements into a group which is known as block or compound statement.
+    why : this multiple group's of statements can be used in a place where javascript expects a single statement.
+
+what is block scope in js?
+    what all variable's and function's we can access inside this block that is known as block scope.
+what is shadowing in js?
 Difference between TypeError ,SyntaxError and ReferenceError
+
+ReferenceError : 
+
+SyntaxError : Whenever we write wrong syntax it gives us a syntax error 
+            Example  let can not redeclare if we trying to redeclare it it gives us to syntax error.  
+
+TypeError :  const is declare and initialize together if we trying to reinitialize it that gives us type error syntax.
