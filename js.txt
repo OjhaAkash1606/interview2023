@@ -64,9 +64,16 @@ What is block(compound statements) in js?
 
 what is block scope in js?
     what all variable's and function's we can access inside this block that is known as block scope.
+
 what is shadowing in js?
+what is illegal shadowing?
+what is vice-versa?
 Difference between TypeError ,SyntaxError and ReferenceError
 
+What is closure in js?
+    Function along with it's lexical scope bundle together forms a closures.
+    A function bind together with it's lexical scope is known that closures.
+    (function along with it's lexical scope forms a closures. )
 ReferenceError : 
 
 SyntaxError : Whenever we write wrong syntax it gives us a syntax error 
