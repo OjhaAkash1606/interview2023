@@ -66,8 +66,11 @@ what is block scope in js?
     what all variable's and function's we can access inside this block that is known as block scope.
 
 what is shadowing in js?
+
 what is illegal shadowing?
+
 what is vice-versa?
+
 Difference between TypeError ,SyntaxError and ReferenceError
 
 What is closure in js?
@@ -80,3 +83,21 @@ SyntaxError : Whenever we write wrong syntax it gives us a syntax error
             Example  let can not redeclare if we trying to redeclare it it gives us to syntax error.  
 
 TypeError :  const is declare and initialize together if we trying to reinitialize it that gives us type error syntax.
+
+What is anonyms function in js?
+What is first class function in js?
+    The ability to use function as value and can be passed this an arguments to to another functions and
+    can be returned function this ability is known as first class function. 
+
+difference between function statements , function expression and function declaration?
+
+Function statement is just a function declaration like that function a() {}.
+Function declaration is also known as function statement.
+
+What is anonyms function in js?
+    Whenever we declared a function without name it is known as anonyms function?
+
+What is a named function expression in js ?
+    whenever we declared name function as value it is known as named function expression?
+
+Difference between parameter and arguments in js?
